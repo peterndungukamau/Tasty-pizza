@@ -4,17 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Address Book</title>
+    <title>Tasty-Pizza</title>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
 </head>
 <body>
-<div class="container-fluid">
+<div class="container">
 <div class="row">
-<div class="col-md-6"><p>hggggg</p></div>
-<div class="col-md-6"><p>hggggg</p></div>
+<div class="col-md-2"></div>
+<div class="col-md-8">
+<div class="form">
+<form>
+<div class="form-group">
+<label for="Name"></label>
+<select class="form-control" id="name" aria-valuemax="" Placeholder="name">
+<option hidden >Pizza Name</option>
+<option>Chicken</option>
+<option>Vegetables</option>
+<option>Meat</option>
+</select><br>
+<select class="form-control" id="size" aria-valuemax="" Placeholder="size">
+<option hidden >Pizza Size</option>
+<option>Small</option>
+<option>Medium</option>
+<option>Large</option>
+</select><br>
+<h6>Select Topping</h6>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="checkbox" id="topping1" value="">
+<label class="form-check-label">topping1</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="checkbox" id="topping2" value="">
+<label class="form-check-label" >topping2</label>
+</div><br><br>
+<select class="form-control" id="crust" aria-valuemax="" Placeholder="crust">
+<option hidden >Pizza Crust</option>
+<option>Thin Crust</option>
+<option>Thick Crust</option>
+<option>Cheese Filled Crust</option>
+<option>Stuffed Crust</option>
+</select><br>
+</div>
+<button type="button" class="btn btn-primary">Order</button>
+</form>
+</div>
+</div>
+<div class="col-md-2"></div>
 </div>
 </div>
 </body>
