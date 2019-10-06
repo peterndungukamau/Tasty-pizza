@@ -4,5 +4,20 @@
   overflow-x:hidden;
   font-family: 'Raleway', sans-serif;
   }
-  
-  
+
+.description h2{
+  font-size: 24px;
+  padding-top: 10%;
+  font-weight: 600;
+}
+
+.description h1{
+  color: #ee3f3c;
+  font-weight: 600;
+}
+
+.description p{
+  font-size: 20px;
+  color: black;
+}
+
