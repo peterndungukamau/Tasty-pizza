@@ -55,7 +55,7 @@
 }
 
 #men{
-  background-image: url("../img/pizza6.png");
+  background-image: url("../img/pizza2.jpg");
   height: 400px;
   background-repeat: no-repeat;
   background-size:cover;
@@ -68,3 +68,32 @@
   font-size: 20px;
   color: black;
 }
+
+/*hhhhhhh*/
+#message{
+  background-color: transparent;
+  height: 200px;
+}
+
+#name{
+background-color: transparent;
+}
+
+#email{
+background-color: transparent;
+  }
+
+
+.Contact h1{
+padding: 4%;
+
+  }
+
+#icons{
+  display: inline-flex;
+}
+
+#icons > li >a{
+  padding:7px;
+}
+
