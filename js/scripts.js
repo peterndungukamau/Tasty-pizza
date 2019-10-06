@@ -73,17 +73,26 @@ $(document).ready(function(){
         totalCosts.push(newPizzaOrder.price);
     
         alert("Your Pizza order is " + name + " " + size + " "  + toppings + " " + crust + " and the total cost is " + totalCosts + " .Thanks for ordering we will deliver shortly.");
-    });
 
-    $(document).ready(function () {
+    });
+    
         $("#delivery").click(function () { 
             prompt("Name")
             prompt("Location")
             prompt("Addrress")
             alert("Your charges for delivery is ksh 200")
             alert("Your order will be delivered to your location")        
-            alert("Thank you for Your Purchase!Your pizza will be delivered to your location in just a while.")        
+            alert("Thank you for Your Purchase!Your pizza will be delivered to your location in just a while.")
+            
         });
-    });
+
+        $("button#contact").submit(function(event) {
+            var namee = $("#namee").val();
+            var email = $("#email").val();
+            var message =$("#message").val();
+            event.preventDefault();
+            alert(namee + " we have received your message . Thank you for reaching out to us.");
+          });
+        
 
 })
