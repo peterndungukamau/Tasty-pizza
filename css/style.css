@@ -3,6 +3,7 @@
   margin:0px;
   overflow-x:hidden;
   font-family: 'Raleway', sans-serif;
+  scroll-behavior:smooth;
   }
 
 .description h2{
@@ -40,6 +41,13 @@
 
 .nav ul > li > a{
   color: white;
+  border-bottom: none !important;
+  padding:5px;
+}
+
+
+.nav ul > li > a:hover{
+  border-bottom: solid 1px red;
 }
 
 .logo img{
