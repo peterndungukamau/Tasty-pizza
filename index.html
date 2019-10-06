@@ -31,7 +31,7 @@
 <option>Medium</option>
 <option>Large</option>
 </select><br>
-<h6>Select Topping</h6>
+<!----<h6>Select Topping</h6>
 <div class="form-check form-check-inline">
 <input class="form-check-input" type="checkbox" id="topping1" value="">
 <label class="form-check-label">topping1</label>
@@ -40,6 +40,13 @@
 <input class="form-check-input" type="checkbox" id="topping2" value="">
 <label class="form-check-label" >topping2</label>
 </div><br><br>
+--->
+<select class="form-control" id="toppings" aria-valuemax="" Placeholder="toppings">
+<option hidden >Toppings</option>
+<option>topping1</option>
+<option>topping2</option>
+<option>topping3</option>
+</select><br>
 <select class="form-control" id="crust" aria-valuemax="" Placeholder="crust">
 <option hidden >Pizza Crust</option>
 <option>Thin Crust</option>
@@ -48,7 +55,7 @@
 <option>Stuffed Crust</option>
 </select><br>
 </div>
-<button type="button" class="btn btn-primary">Order</button>
+<button type="button" class="btn btn-primary" id="submit">Order</button>
 </form>
 </div>
 </div>
