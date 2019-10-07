@@ -58,6 +58,13 @@ return this.price
     
 }
 
+PlaceOrder.prototype.totalCost = function(){
+    var orderTotal = 0;
+    for(var order =0; order < totalCosts.length; order++){
+        orderTotal += totalCosts[order];
+    }
+    return orderTotal;
+ }
 
 
 // user interface logic
@@ -86,7 +93,7 @@ $(document).ready(function(){
             
         });
 
-        $("button#contact").submit(function(event) {
+        $("button#contact").click(function(event) {
             var namee = $("#namee").val();
             var email = $("#email").val();
             var message =$("#message").val();
