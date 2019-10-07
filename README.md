@@ -5,7 +5,7 @@ This app calculates the order a customer wants when buying a pizza.The app is a 
 ## Setup/Installation Requirements
 * Open your terminal (ctrl+alt+T)
 * Initialize git on your terminal
-* git clone 
+* git clone https://github.com/peterndungukamau/Tasty-pizza.git
 * open the landing-page folder
 * Open the file named index.html on your preferred internet browser.
 ## BDD
@@ -16,6 +16,6 @@ CSS 3
 Javascript
 jQuery
 ## Here is the link to the site
-
+[Tasty Pizza](https://peterndungukamau.github.io/Tasty-pizza/)
 ### License
 Copyright (c) 2019 **Peter-Kamau**
